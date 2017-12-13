@@ -1,13 +1,8 @@
-FROM debian:stretch
+FROM alpine:3.7
 MAINTAINER Stefano Marinelli <stefano@dragas.it>
 
-RUN apt-get update && apt-get install -y python3-pip locales; apt-get clean; rm -Rf /var/lib/apt/lists/*
-
-RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
-    locale-gen
-ENV LANG en_US.UTF-8  
-ENV LANGUAGE en_US:en  
-ENV LC_ALL en_US.UTF-8     
+RUN apk --no-cache update && apk add python3 python3-dev alpine-sdk libxml2 py3-lxml zlib-dev libjpeg jpeg-dev
+RUN pip3 install -U pip setuptools wheel
 
 RUN pip3 install Nikola[extras] && rm -Rf /root/.cache/
 
