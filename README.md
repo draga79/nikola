@@ -1,3 +1,5 @@
+![License MIT](https://img.shields.io/badge/license-MIT-blue.svg) [![Docker Automated build](https://img.shields.io/docker/automated/dragas/nikola.svg)](https://hub.docker.com/r/dragas/nikola) [![](https://img.shields.io/docker/stars/dragas/nikola.svg)](https://hub.docker.com/r/dragas/nikola) [![](https://img.shields.io/docker/pulls/dragas/nikola.svg)](https://hub.docker.com/r/dragas/nikola)
+
 # Nikola
 
 This [Docker](https://www.docker.com) image contains a complete [Nikola](https://getnikola.com/) installation, ready for use. 
