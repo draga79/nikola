@@ -10,6 +10,8 @@ Two branches are available:
 
 *Alpine* branch (pulling dragas/nikola:alpine) is based on Alpine 3.7, Python 3.6 official packages and Nikola has been built via pip3 with [Extras] flag so it's complete. It will be periodically rebuilt to follow Nikola and Alpine version updates.
 
+*Dev* branch (pulling dragas/nikola:dev) is based on Alpine 3.7, Python 3.6 official packages and Nikola has been built via pip3 with [Extras] flag by the *latest git development branch* available at build time. It may be useful to test new features and if you want to stay as current as possible.
+
 ## About Nikola
 
 Nikola is a static website and blog generator. It supports many input formats. It is fast and reliable. Have a [look here](https://getnikola.com/).
