@@ -26,7 +26,7 @@ The container has been created with workdir set on /nikola, so any command given
 To initialize a new website, use the following command:
 
 ```bash
-$ docker run --rm -ti -v /yourpath:/nikola dragas/nikola:alpine nikola init
+$ docker run --rm -ti -v /yourpath:/nikola dragas/nikola nikola init
 ```
 
 Running this command for the first time will download the image automatically. Nikola will ask some questions and prepare its path. The container will then terminate and delete as all Nikola data will be stored in */yourpath*
