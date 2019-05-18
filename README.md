@@ -6,11 +6,11 @@ This [Docker](https://www.docker.com) image contains a complete [Nikola](https:/
 
 Two branches are available:
 
-*Master*, the default one (pulling dragas/nikola), is based on Debian Stretch, Python 3.5 official packages and Nikola has been built via pip3 with [Extras] flag so it's complete. It will be periodically rebuilt to follow Nikola and Debian version updates.
+*Master* branch (pulling dragas/nikola) is based on Alpine 3.9, Python 3.6 official packages and Nikola has been built via pip3 with [Extras] flag so it's complete. It will be periodically rebuilt to follow Nikola and Alpine version updates.
 
-*Alpine* branch (pulling dragas/nikola:alpine) is based on Alpine 3.7, Python 3.6 official packages and Nikola has been built via pip3 with [Extras] flag so it's complete. It will be periodically rebuilt to follow Nikola and Alpine version updates.
+*Debian*, (pulling dragas/nikola:debian), is based on Debian Stretch, Python 3.5 official packages and Nikola has been built via pip3 with [Extras] flag so it's complete. It will be periodically rebuilt to follow Nikola and Debian version updates.
 
-*Dev* branch (pulling dragas/nikola:dev) is based on Alpine 3.7, Python 3.6 official packages and Nikola has been built via pip3 with [Extras] flag by the *latest git development branch* available at build time. It may be useful to test new features and if you want to stay as current as possible.
+*Dev* branch (pulling dragas/nikola:dev) is based on Alpine 3.9, Python 3.6 official packages and Nikola has been built via pip3 with [Extras] flag by the *latest git development branch* available at build time. It may be useful to test new features and if you want to stay as current as possible.
 
 ## About Nikola
 
