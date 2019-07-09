@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 MAINTAINER Stefano Marinelli <stefano@dragas.it>
 
 RUN apt-get update && apt-get install -y python3-pip locales; apt-get clean; rm -Rf /var/lib/apt/lists/*
