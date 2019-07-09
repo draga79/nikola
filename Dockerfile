@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.10
 MAINTAINER Stefano Marinelli <stefano@dragas.it>
 
 RUN apk --no-cache add python3 python3-dev alpine-sdk libxml2 py3-lxml zlib-dev libjpeg jpeg-dev zeromq-dev && pip3 install -U pip setuptools wheel
