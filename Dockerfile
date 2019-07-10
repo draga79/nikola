@@ -9,6 +9,6 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en  
 ENV LC_ALL en_US.UTF-8     
 
-RUN pip3 install Nikola[extras] && rm -Rf /root/.cache/
+RUN pip3 install opentimestamps-client Nikola[extras] && rm -Rf /root/.cache/
 
 WORKDIR /nikola
