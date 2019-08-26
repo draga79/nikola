@@ -1,8 +1,8 @@
 FROM alpine:3.10
 MAINTAINER Stefano Marinelli <stefano@dragas.it>
 
-RUN apk --no-cache add python3 python3-dev alpine-sdk libxml2 py3-lxml zlib-dev libjpeg jpeg-dev zeromq-dev && pip3 install -U pip setuptools wheel
+RUN apk --no-cache add python3 python3-dev alpine-sdk libxml2 py3-lxml zlib-dev libjpeg jpeg-dev zeromq-dev openjdk11-jre-headless && pip3 install -U pip setuptools wheel
 
-RUN  pip3 install opentimestamps-client Nikola[Extras] && rm -Rf /root/.cache/
+RUN  pip3 install opentimestamps-client yuicompressor Nikola[Extras] && rm -Rf /root/.cache/
 
 WORKDIR /nikola
