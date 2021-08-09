@@ -13,5 +13,12 @@ pipeline {
       }
     }
 
+    stage('Cleanup') {
+      steps {
+        sh 'yes | docker volume prune'
+      }
+    }
+    
+    
   }
 }
