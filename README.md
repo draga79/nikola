@@ -6,11 +6,11 @@ This [Docker](https://www.docker.com) image contains a complete [Nikola](https:/
 
 Three branches are available:
 
-*Master* branch (pulling dragas/nikola) is based on Alpine 3.10, Python 3.7 official packages and Nikola has been built via pip3 with [Extras] flag so it's complete. It will be periodically rebuilt to follow Nikola and Alpine version updates.
+*Master* branch (pulling dragas/nikola) is based on Alpine 3.14, Python 3.7 official packages and Nikola has been built via pip3 with [Extras] flag so it's complete. It will be periodically rebuilt to follow Nikola and Alpine version updates.
 
 *Debian*, (pulling dragas/nikola:debian), is based on Debian Buster, Python 3.7 official packages and Nikola has been built via pip3 with [Extras] flag so it's complete. It will be periodically rebuilt to follow Nikola and Debian version updates.
 
-*Dev* branch (pulling dragas/nikola:dev) is based on Alpine 3.10, Python 3.7 official packages and Nikola has been built via pip3 with [Extras] flag by the *latest git development branch* available at build time. It may be useful to test new features and if you want to stay as current as possible.
+*Dev* branch (pulling dragas/nikola:dev) is based on Alpine 3.14, Python 3.7 official packages and Nikola has been built via pip3 with [Extras] flag by the *latest git development branch* available at build time. It may be useful to test new features and if you want to stay as current as possible.
 
 ## About Nikola
 
